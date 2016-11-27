@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #13131f;
+	color: #92acff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+}
+.mt {
+	margin-top: 150px;
+}
+.header {
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+.download-wrap {
+	height: 100%;
+	padding-bottom: 105px;
+	padding-top: 10px;
+}
+	.cube {
+		width: 200px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.store {
+		display: inline-block;
+	}
+.intro {
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 1.44;
+	margin-bottom: 60px;
+	margin-top: 0;
+}
+.slogan {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.11;
+	text-shadow: 0 0 15px #3b72ff;
+	text-transform: uppercase;
+}
+.subtitle {
+	font-size: 30px;
+	font-weight: 100;
+	letter-spacing: 0.8px;
+	line-height: 1.83;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+.clip {
+	margin-bottom: 20px;
+}
+.screen-list {
+	margin-top: 15px;
+}
+.screen {
+	display: inline-block;
+	margin: 0 10px;
+}
+.screen img {
+	width: 200px;
+	height: 112px;
+}
+.screen p {
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+	line-height: 1.67;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.social-links a {
+	margin: 0 60px;
+	display: inline-block;
+}
+.social-links img {
+	height: 25px;
+}
+.social-links img:hover {
+	filter: brightness(130%);
+}
+.copyright {
+	margin-bottom: 100px;
+}
+.copyright p {
+	font-size: 15px;
+	letter-spacing: 0.4px;
+	text-transform: uppercase;
+}
