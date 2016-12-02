@@ -26,14 +26,14 @@ body {
 	padding-bottom: 105px;
 	padding-top: 10px;
 }
-	.cube {
-		width: 200px;
-		display: inline-block;
-		vertical-align: top;
-	}
-	.store {
-		display: inline-block;
-	}
+.cube {
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+.store {
+	display: inline-block;
+}
 .intro {
 	font-size: 18px;
 	letter-spacing: 0.5px;
@@ -57,27 +57,30 @@ body {
 	margin-bottom: 50px;
 	text-transform: uppercase;
 }
-.clip {
-	margin-bottom: 20px;
-}
-.screen-list {
+.video-list {
 	margin-top: 15px;
 }
-.screen {
+.video {
 	display: inline-block;
 	margin: 0 10px;
 }
-.screen img {
-	width: 200px;
-	height: 112px;
-}
-.screen p {
+.video-list p {
 	font-size: 15px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	line-height: 1.67;
 	margin-bottom: 10px;
 	text-transform: uppercase;
+}
+.clip img {
+	width: 200px;
+	height: 112px;
+}
+.clip:focus img {
+	outline: 2px solid #3c68f3;
+}
+.clip:hover img {
+	filter: brightness(140%);
 }
 .social-links a {
 	margin: 0 60px;
